@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class BookController {
 
+    private final BookRepository bookRepository;
+
     @Autowired
     public BookController(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
-    private final BookRepository bookRepository;
 
     @RequestMapping("/books")
     public String getBooks(Model model) {
