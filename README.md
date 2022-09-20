@@ -8,6 +8,13 @@ to use the Spring Framework. Step by step instructions and detailed explanations
 As you work through the course, please feel free to fork this repository to your out GitHub repo. Most links contain links 
 to source code changes. If you encounter a problem you can compare your code to the lesson code. [See this link for help with compares](https://github.com/springframeworkguru/spring5webapp/wiki#getting-an-error-but-cannot-find-what-is-different-from-lesson-source-code)
 
+# Endpoints
+Whole app is hosted by default on localhost:8080 \
+Booted app will provide you with two endpoints.
+### /authors
+Gets you list of precoded authors, and their books.
+### /books
+Gets you list of precoded books and informations about them.
 
 
 ## Connect with Spring Framework Guru
